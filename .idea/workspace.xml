@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f3dda265-19a1-4087-80ac-977878095b13" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Shijie_Li_resume.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jerry-shijieli-resume.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resume.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/reset-fonts-grids.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/jerry-shijieli-resume.html" afterPath="$PROJECT_DIR$/my_CV.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/resume.css" afterPath="$PROJECT_DIR$/CV.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="jerry-shijieli.github.io.iws" />
@@ -55,20 +55,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jerry-shijieli-resume.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/jerry-shijieli-resume.html">
+      <file leaf-file-name="my_CV.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/my_CV.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="169">
-              <caret line="152" column="39" lean-forward="false" selection-start-line="152" selection-start-column="39" selection-end-line="152" selection-end-column="39" />
+            <state relative-caret-position="150">
+              <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
               <folding>
-                <element signature="e#2283#2290#0" expanded="true" />
+                <element signature="e#2223#2230#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resume.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resume.css">
+      <file leaf-file-name="CV.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CV.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="4">
               <caret line="51" column="139" lean-forward="false" selection-start-line="51" selection-start-column="139" selection-end-line="51" selection-end-column="139" />
@@ -89,6 +89,7 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/resume.css" />
         <option value="$PROJECT_DIR$/jerry-shijieli-resume.html" />
+        <option value="$PROJECT_DIR$/my_CV.html" />
       </list>
     </option>
   </component>
@@ -226,7 +227,7 @@
       <workItem from="1474125933721" duration="104000" />
       <workItem from="1474126151600" duration="450000" />
       <workItem from="1479937225887" duration="59000" />
-      <workItem from="1479937380053" duration="3879000" />
+      <workItem from="1479937380053" duration="4169000" />
     </task>
     <task id="LOCAL-00001" summary="add folders for easy use">
       <created>1474125529689</created>
@@ -270,20 +271,27 @@
       <option name="project" value="LOCAL" />
       <updated>1474126579547</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="upload CV webpage and pdf resume">
+      <created>1479941465285</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1479941465285</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5925000" />
+    <option name="totallyTimeSpent" value="6215000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19459888" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32739726" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32739726" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -308,7 +316,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add folders for easy use" />
     <MESSAGE value="index page" />
-    <option name="LAST_COMMIT_MESSAGE" value="index page" />
+    <MESSAGE value="upload CV webpage and pdf resume" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload CV webpage and pdf resume" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -483,7 +492,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resume.css">
+    <entry file="file://$PROJECT_DIR$/CV.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4">
           <caret line="51" column="139" lean-forward="false" selection-start-line="51" selection-start-column="139" selection-end-line="51" selection-end-column="139" />
@@ -491,12 +500,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jerry-shijieli-resume.html">
+    <entry file="file://$PROJECT_DIR$/my_CV.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="169">
-          <caret line="152" column="39" lean-forward="false" selection-start-line="152" selection-start-column="39" selection-end-line="152" selection-end-column="39" />
+        <state relative-caret-position="150">
+          <caret line="10" column="46" lean-forward="false" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
           <folding>
-            <element signature="e#2283#2290#0" expanded="true" />
+            <element signature="e#2223#2230#0" expanded="true" />
           </folding>
         </state>
       </provider>
