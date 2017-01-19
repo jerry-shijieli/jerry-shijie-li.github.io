@@ -1626,7 +1626,7 @@ a {
 
     a:hover {
         border-bottom-color: transparent;
-        color: #4acaa8 !important;
+        color: #222222 !important;
     }
 
 strong, b {
@@ -2070,6 +2070,20 @@ input[type="radio"] + label:before {
             display: block;
             width: 100%;
         }
+
+    .image.square {
+        border-radius: 0px;
+        display: block;
+        margin: 0 0 2.25em 0;
+        width: 100%;
+    }
+
+        .image.square img {
+            display: block;
+            width: 100%;
+        }
+
+    
 
     .image.avatar {
         border-radius: 100%;
@@ -2650,7 +2664,7 @@ input[type="button"],
         border-top: 0;
     }
 
-/* One */
+/* Zero */
 
 #zero:before {
     background-image: url("../../images/banner.jpg");
