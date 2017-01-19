@@ -57,6 +57,24 @@ ul.feature-none li {
     margin-left: 3.0em;
 }
 
+ul.compact {
+    margin-bottom: 0.5em;
+}
+
+.image.square {
+        border-radius: 0px;
+        display: block;
+        margin: 0 0 2.25em 0;
+        width: 100%;
+    }
+
+        .image.square img {
+            display: block;
+            width: 100%;
+            background-color: black;
+        }
+
+
 /*---------- new styles end here ----------*/
 
 /* Reset */
@@ -2071,20 +2089,6 @@ input[type="radio"] + label:before {
             width: 100%;
         }
 
-    .image.square {
-        border-radius: 0px;
-        display: block;
-        margin: 0 0 2.25em 0;
-        width: 100%;
-    }
-
-        .image.square img {
-            display: block;
-            width: 100%;
-        }
-
-    
-
     .image.avatar {
         border-radius: 100%;
         overflow: hidden;
@@ -2291,7 +2295,7 @@ table {
         color: #777;
         font-size: 0.9em;
         font-weight: 700;
-        padding: 0 0.75em 0.75em 0.75em;
+        padding: 0.5em 0.75em 0.5em 0.75em;
         text-align: left;
     }
 
