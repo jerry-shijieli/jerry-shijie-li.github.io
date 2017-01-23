@@ -2949,7 +2949,9 @@ input[type="button"],
                     right: 0;
                 }
     
-                
+    #titleBar .toggle:hover {
+        opacity: 0.7;
+    }
 
         body.header-visible #wrapper, body.header-visible #titleBar {
             -moz-transform: translateX(-23em);
