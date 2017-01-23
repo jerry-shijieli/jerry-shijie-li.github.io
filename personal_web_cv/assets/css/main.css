@@ -74,6 +74,18 @@ ul.compact {
             background-color: black;
         }
 
+/* control text display in projects section */
+.morecontent span {
+    display: none;
+}
+.morelink {
+    display: block;
+}
+
+article a img:hover {
+    opacity: 0.7;
+}
+
 
 /*---------- new styles end here ----------*/
 
@@ -88,7 +100,11 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
     vertical-align: baseline;
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+article {
+    display: block;
+}
+
+aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
     display: block;
 }
 
@@ -2688,7 +2704,7 @@ input[type="button"],
     border-top: 0;
     color: #c0c0c0;
     overflow: hidden;
-    padding: 4em 0 2em 0;
+    padding: 1em 0 1em 0;
 }
 
     #footer .copyright {

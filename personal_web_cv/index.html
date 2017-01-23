@@ -9,6 +9,7 @@
 		<title>Shijie Li (Jerry)</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css"> <!-- bootstrap -->
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
@@ -37,10 +38,10 @@
 				<footer>
 					<ul class="icons">
 						<!--<li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>-->
-                        <li><a href="#" class="icon fa-envelope"><span class="label">Email</span></a></li>
-						<li><a href="#" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
-						<li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-                        <li><a href="#" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                        <li><a href="mailto:sli41@ncsu.edu" class="icon fa-envelope" target="_self"><span class="label">Email</span></a></li>
+						<li><a href="https://www.linkedin.com/in/shijie-jerry-li-b8903078?trk=nav_responsive_tab_profile" class="icon fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/jerry-shijieli" class="icon fa-github" target="_blank"><span class="label">Github</span></a></li>
+                        <li><a href="https://www.facebook.com/JerryLeeLSJ" class="icon fa-facebook" target="_blank"><span class="label">Facebook</span></a></li>
 						
 					</ul>
 				</footer>
@@ -239,28 +240,105 @@
 						<!-- Three -->
 							<section id="three">
 								<div class="container">
-									<h3>Projects</h3>
-									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
+									<h2>Projects</h2>
+									<h3>Highlights of my course and research projects</h3>
 									<div class="features">
 										<article>
-											<a href="#" class="image"><img src="images/pic01.jpg" alt="" /></a>
+											<a style="outline:none" href=".inner" class="image" data-toggle="modal" data-target="#proj_01_Modal"><img src="images/project/proj_01/spark-recommender-workflow.png" alt="" /></a>
+                                            <!-- Modal -->
+                                            <div class="modal" id="proj_01_Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                              <div class="modal-dialog modal-lg" role="document">
+                                                <div class="modal-content">
+                                                  <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                      <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                  </div>
+                                                  <div class="modal-body">
+                                                    <img style="width:100%" src="" alt="" />
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
 											<div class="inner">
-												<h4>Possibly broke spacetime</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+												<h4>Music Recommender System using Collaborative Filtering Implicit Feedback</h4>
+                                                <span>This project aims to create a recommender system that will recommend new musical artists to a user based on their listening history. Suggesting different songs or musical artists to a user is important to many music streaming services, a such as Pandora and Spotify.
+                                                    <a class="learn_more"><br> Learn More &nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                                <span class="more_text">In addition, this type of recommender system could also be used as a means of suggesting TV shows or movies to a user (e.g., Netflix).</span>
+                                                <h5 class="more_text"><br>My Contribution</h5>
+                                                <ul class="more_text">
+                                                    <li><span>Clean and index the raw data from Last.fm using Resilient Distributed Dataset(RDD) and MapReduce model.</span></li>
+                                                    <li><span>Implement the collaborative filtering recommender model using Spark MLlib.</span></li>
+                                                    <li><span>Evaluate the model by top-K recommendation overlapping rate.</span></li>
+                                                </ul>
+                                                    <a class="show_less"><i class="fa fa-angle-double-up" aria-hidden="true"></i>&nbsp; Show less </a>
+                                                </span>
 											</div>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic02.jpg" alt="" /></a>
+											<a style="outline:none" href=".inner" class="image" data-toggle="modal" data-target="#proj_02_Modal"><img src="images/project/proj_02/workflow.png" alt="" /></a>
+                                            <!-- Modal -->
+                                            <div class="modal" id="proj_02_Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                              <div class="modal-dialog modal-lg" role="document">
+                                                <div class="modal-content">
+                                                  <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                      <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                  </div>
+                                                  <div class="modal-body">
+                                                    <img style="width:100%" src="" alt="" />
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
 											<div class="inner">
-												<h4>Terraformed a small moon</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+												<h4>Real-time Sentiment Analysis of Twitter Data Streaming</h4>
+                                                <span>This project is to perform a basic sentimental analysis of real-time tweets. Here the Bag-Of-Word (BOW) method is used to decompose the tweets in a fixed time interval into two classes of sentimental polarities. 
+                                                    <a class="learn_more"><br> Learn More &nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                                <span class="more_text">Technically, the real-time text data stream is handled using the Kafka distributed streaming platform in order to balance the streaming speed and processing speed. From these real-time analysis, it is obvious to track the sentiment trend over a time period. 
+                                                </span>
+                                                <h5 class="more_text"><br>My Contribution</h5>
+                                                <ul class="more_text">
+                                                    <li><span>Set up the data streaming pipeline using Kafka distributed streaming platform, Twitter streaming API and Spark Streaming.</span></li>
+                                                    <li><span>Code the BOW sentiment analysis method using Spark RDDs and MapReduce API.</span></li>
+                                                    <li><span>Data visualization using python Matplotlib package.</span></li>
+                                                </ul>
+                                                </span>
+                                                    <a class="show_less"><i class="fa fa-angle-double-up" aria-hidden="true"></i>&nbsp; Show less </a>
 											</div>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic03.jpg" alt="" /></a>
+											<a style="outline:none" href=".inner" class="image" data-toggle="modal" data-target="#proj_04_Modal"><img src="images/project/proj_04/confusion_matrix_comparisons.png" alt="" /></a>
+                                            <!-- Modal -->
+                                            <div class="modal" id="proj_04_Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                              <div class="modal-dialog modal-lg" role="document">
+                                                <div class="modal-content">
+                                                  <div class="modal-header">
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                      <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                  </div>
+                                                  <div class="modal-body">
+                                                    <img style="width:100%" src="" alt="" />
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
 											<div class="inner">
-												<h4>Snapped dark matter in the wild</h4>
-												<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer adipiscing ornare amet.</p>
+												<h4>Textual Feature Extraction for Sentiment Analysis</h4>
+                                                <span>In this project, we perform the sentiment analysis over the IMDB movie reviews. We classified movie reviews to either of the general attitudes: positive and negative. For this supervised learning process, the crucial part is the feature extraction from the text reviews. 
+                                                    <a class="learn_more"><br> Learn More &nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                                <span class="more_text">We compared two state-of-art models of text analysis using two popular classifiers. One is the one-hot key binary word vector which is widely used to encoding text in traditional natural language processing (NLP), while the other is the Doc2Vec technique where document vectors are learned via artificial neural network. These models are finally evaluated in metrics of confusion matrix and accuracy of binary classifications. 
+                                                </span>
+                                                <h5 class="more_text"><br>My Contribution</h5>
+                                                <ul class="more_text">
+                                                    <li><span>Implement the feature extraction models using Python package gensim.</span></li>
+                                                    <li><span>Implement the classification and evaluation procedures using Scikit-learn APIs.</span></li>
+                                                    <li><span>Data visualization using python Matplotlib package.</span></li>
+                                                </ul>
+                                                </span>
+                                                    <a class="show_less"><i class="fa fa-angle-double-up" aria-hidden="true"></i>&nbsp; Show less </a>
 											</div>
 										</article>
 									</div>
@@ -271,31 +349,129 @@
 							<section id="four">
 								<div class="container">
 									<h3>Contact Me</h3>
-									<p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non. Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
-									<form method="post" action="#">
-										<div class="row uniform">
-											<div class="6u 12u(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
-											<div class="6u 12u(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
-										</div>
-										<div class="row uniform">
-											<div class="12u"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
-										</div>
-										<div class="row uniform">
-											<div class="12u"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea></div>
-										</div>
-										<div class="row uniform">
-											<div class="12u">
-												<ul class="actions">
-													<li><input type="submit" class="special" value="Send Message" /></li>
-													<li><input type="reset" value="Reset Form" /></li>
-												</ul>
-											</div>
-										</div>
-									</form>
+									<address>
+                                      <strong><i class="fa fa-home" aria-hidden="true"></i>&nbsp;Address</strong><br>
+                                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1701 Gorman ST 206<br>
+                                      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Raleigh, NC 27606<br>
+                                      <strong><i class="fa fa-phone" aria-hidden="true"></i></strong>&nbsp;<a >+1(402)314-9216</a><br>
+                                      <strong><i class="fa fa-envelope" aria-hidden="true"></i>&nbsp;</strong><a>sli41 AT ncsu DOT edu</a>
+                                    </address>
+                                    <br>
+                                    <div id="map" style="width:100%;height:200px;background:white;"></div>
+                                    <br>
 								</div>
 							</section>
 
-						<!-- Five -->
+						
+
+					</div>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="container">
+                            <span style="padding-right:1em; border-right: solid 1px #d4d4d4">&copy; Shije (Jerry) Li.&nbsp; All rights reserved.</span><span style="padding-left:1em">Design: <a href="http://html5up.net">HTML5 UP</a></span>
+							<!--ul class="copyright" >
+								<li>&copy; Shijie Li. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul-->
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollzer.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+            <script src="assets/js/tether.min.js"></script>
+            <script src="assets/js/bootstrap.min.js" ></script> <!-- bootstrap -->
+            
+            <script type="text/javascript">
+                $(function(){ /* to make sure the script runs after page load */
+                    $("a.learn_more").show();
+                    $(".more_text").hide();
+                    $("a.show_less").hide();
+                    
+                    $("a").click(function(event){
+                        var img_src = $(this).find("img").attr("src");
+                        $(this).parents("article").find(".modal-body img").attr("src", img_src);
+                    })
+                    
+                    $("a.learn_more").click(function(event){ /* find all a.read_more elements and bind the following code to them */
+                        event.preventDefault(); /* prevent the a from changing the url */
+                        $(this).hide();
+                        $(this).parents(".inner").find("a.show_less").show();
+                        $(this).parents(".inner").find(".more_text").show(500, "swing"); /* show the .more_text span */
+                    });
+                    $("a.show_less").click(function(event){ /* find all a.read_more elements and bind the following code to them */
+                        event.preventDefault(); /* prevent the a from changing the url */
+                        $(this).hide();
+                        $(this).parents(".inner").find(".more_text").hide(500, "linear"); /* show the .more_text span */
+                        $(this).parents(".inner").find("a.learn_more").show();
+                    });
+                });
+            </script>
+            <script type="text/javascript">
+                /* need tuning */
+                /*$(document).ready(function() {
+                    // Configure/customize these variables.
+                    var showChar = 150;  // How many characters are shown by default
+                    var ellipsestext = "...";
+                    var moretext = "Show more >";
+                    var lesstext = "Show less";
+
+
+                    $('.more').each(function() {
+                        var content = $(this).html();
+
+                        if(content.length > showChar) {
+
+                            var c = content.substr(0, showChar);
+                            var h = content.substr(showChar, content.length - showChar);
+
+                            var html = c + '<span class="moreellipses">' + ellipsestext+ '&nbsp;</span><span class="morecontent"><span>' + h + '</span>&nbsp;&nbsp;<a href="" class="morelink">' + moretext + '</a></span>';
+
+                            $(this).html(html);
+                        }
+
+                    });
+
+                    $(".morelink").click(function(){
+                        if($(this).hasClass("less")) {
+                            $(this).removeClass("less");
+                            $(this).html(moretext);
+                        } else {
+                            $(this).addClass("less");
+                            $(this).html(lesstext);
+                        }
+                        $(this).parent().prev().toggle();
+                        $(this).prev().toggle();
+                        return false;
+                    });
+                }); */
+            </script>
+            <script>
+                function myMap() {
+                    var myLatLng = {lat: 35.775353, lng: -78.688378};
+                    var mapOptions = {
+                        center: myLatLng,
+                        zoom: 13,
+                        mapTypeId: google.maps.MapTypeId.ROADMAP,
+                    }
+                var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+                var marker = new google.maps.Marker({
+                            position: myLatLng,
+                            map: map
+                        });
+                }
+            </script>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDTPxSyX5gG3SfdeBA-Rja2OoRfZUaLDSY&callback=myMap"></script>
+            
+	</body>
+    <!-- Five -->
 						<!--
 							<section id="five">
 								<div class="container">
@@ -641,28 +817,4 @@
 								</div>
 							</section>
 						-->
-
-					</div>
-
-				<!-- Footer -->
-					<section id="footer">
-						<div class="container">
-							<ul class="copyright">
-								<li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-							</ul>
-						</div>
-					</section>
-
-			</div>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollzer.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
-			<script src="assets/js/main.js"></script>
-
-	</body>
 </html>
