@@ -1985,7 +1985,7 @@ input[type="radio"] {
 
     input[type="checkbox"]:focus + label:before,
     input[type="radio"]:focus + label:before {
-        border-color: #4acaa8;
+        border-color: #989898;
     }
 
 input[type="checkbox"] + label:before {
@@ -2474,14 +2474,14 @@ input[type="button"],
         input[type="reset"].special:hover,
         input[type="button"].special:hover,
         .button.special:hover {
-            background-color: #5ed0b1;
+            background-color: #989898;
         }
 
         input[type="submit"].special:active,
         input[type="reset"].special:active,
         input[type="button"].special:active,
         .button.special:active {
-            background-color: #39c29d;
+            background-color: #989898;
         }
 
     input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -2935,7 +2935,7 @@ input[type="button"],
                 }
 
                 #titleBar .toggle:before {
-                    background: #4acaa8;
+                    background: #222222;
                     color: #ffffff;
                     content: '\f0c9';
                     display: block;
@@ -2947,6 +2947,10 @@ input[type="button"],
                     top: 0;
                     width: 64px;
                     right: 0;
+                }
+    
+                #titleBar .toggle:hover {
+                    opacity: 0.7;
                 }
 
         body.header-visible #wrapper, body.header-visible #titleBar {
