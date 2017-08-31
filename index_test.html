@@ -275,13 +275,48 @@
                                     </header>
 									<h3>Project Highlights</h3>
 									<div class="features">
-										<article>
-											<a style="outline:none" href=".inner" class="image" data-toggle="modal" data-target="#proj_01_Modal"><img src="images/project/proj_01/spark-recommender-workflow.png" alt="" /></a>
+                                        <article>
+                                            <a style="outline:none" href=".inner" class="image" data-toggle="modal" data-target="#proj_EM_Modal"><img src="images/project/proj_EM/wordcloud.png" alt="" /></a>
                                             <!-- Modal -->
-                                            <div class="modal" id="proj_01_Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal" id="proj_EM_Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                               <div class="modal-dialog modal-lg" role="document">
                                                 <div class="modal-content">
                                                   <div class="modal-header">
+                                                      <h5 class="modal-title">Word Clouds Of Semisupervised Document Classification</h5>
+                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                      <span aria-hidden="true">&times;</span>
+                                                    </button>
+                                                  </div>
+                                                  <div class="modal-body">
+                                                    <img style="width:100%" src="" alt="" />
+                                                  </div>
+                                                </div>
+                                              </div>
+                                            </div>
+                                            <div class="inner">
+                                                <h4>Semi-supervised Document Classification Using Expectation-Maximization(EM) Algorithm</h4>
+                                                <span>The acquisition of large amount of labeled text data for text classification is a tedious and expensive task, while there is huge amount of unlabeled data set on Web resources which are easy and cheap. 
+                                                    <a class="learn_more"><br> Learn More &nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+                                                <span class="more_text">In this project, we investigate the effectiveness of using semi-supervised learning and expectation-maximization(EM) algorithm to take advantage of large amount of unlabeled data to obtain highly accurate text classification. We built a simple multinomial Naive Bayes(NB) classifier and trained it using EM procedure and both labeled and unlabeled text data. And we studied the relation between the multiclass classification accuracy and the fraction of unlabeled data in the training data set. We also explore methods to reduce computational expense in EM procedures to speed up training process. The result showed that our semi-supervised EM NB classifier can achieve above 50% accuracy on average given only 2% labeled data, and above 70% accuracy given one third of training data labeled. 
+                                                </span>
+                                                <h5 class="more_text"><br>My Contribution</h5>
+                                                <ul class="more_text">
+                                                    <li><span>Build class of semi-supervised text classification using EM and Multinomial Naive Bayesian algorithms in Python using scikit-learn packages.</span></li>
+                                                    <li><span>Text preprocessing using Python NLTK library and regular expressions.</span></li>
+                                                    <li><span>Result analysis and visualization using Matplotlib, Seaborn and wordcloud packages.</span></li>
+                                                </ul>
+                                                </span>
+                                                    <a class="show_less"><i class="fa fa-angle-double-up" aria-hidden="true"></i>&nbsp; Show less </a>
+                                            </div>
+                                        </article>
+										<article>
+											<a style="outline:none" href=".inner" class="image" data-toggle="modal" data-target="#proj_RL_Modal"><img src="images/project/proj_RL/policy_and_optimal_features.png" alt="" style="height:150%;"/></a>
+                                            <!-- Modal -->
+                                            <div class="modal" id="proj_RL_Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                              <div class="modal-dialog modal-lg" role="document">
+                                                <div class="modal-content">
+                                                  <div class="modal-header">
+                                                      <h5 class="modal-title">Policy Derived From Optimal Features And Markov Decision Process(MDP)</h5>
                                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                       <span aria-hidden="true">&times;</span>
                                                     </button>
@@ -293,27 +328,28 @@
                                               </div>
                                             </div>
 											<div class="inner">
-												<h4>Music Recommender System using Collaborative Filtering Implicit Feedback</h4>
-                                                <span>This project aims to create a recommender system that will recommend new musical artists to a user based on their listening history. Suggesting different songs or musical artists to a user is important to many music streaming services, a such as Pandora and Spotify.
+												<h4>Feature Selection For Reinforcement Learning In Educational Policy Development</h4>
+                                                <span>This project aims to develop feature selection method to improve the overall ECR(Expected Cumulative Reward) value in a recently <a href="http://dl.acm.org/citation.cfm?id=2930247">published work</a>, which studied policies to improve students' learning (measured by ECR) using reinforcement learning model. 
                                                     <a class="learn_more"><br> Learn More &nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                                                <span class="more_text">In addition, this type of recommender system could also be used as a means of suggesting TV shows or movies to a user (e.g., Netflix).</span>
+                                                <span class="more_text">The reinforcement learning system built a Markov model consisting of tutor actions, learning context (features) as states and student learning as reward. We develop a feature selection model significantly improving the previous work in the publication using a forward-backward greedy algorithm of a wrapper feature selection method.</span>
                                                 <h5 class="more_text"><br>My Contribution</h5>
                                                 <ul class="more_text">
-                                                    <li><span>Clean and index the raw data from Last.fm using Resilient Distributed Dataset(RDD) and MapReduce model.</span></li>
-                                                    <li><span>Implement the collaborative filtering recommender model using Spark MLlib.</span></li>
-                                                    <li><span>Evaluate the model by top-K recommendation overlapping rate.</span></li>
+                                                    <li><span>Modify and use Python Markov Decision Process Toolbox to compute the Expected Cumulative Reward(ECR) of the Reinforcement Learning system, which studies student learning performance based on data of tutor actions and learning contexts.</span></li>
+                                                    <li><span>Develop a Forward-backward greedy search algorithm and implement Python codes to select the optimal subset of features using Wrapper method.</span></li>
+                                                    <li><span>Analyse relationships among optimal features and generate corresponding policy map to make instruction decisions.</span></li>
                                                 </ul>
                                                     <a class="show_less"><i class="fa fa-angle-double-up" aria-hidden="true"></i>&nbsp; Show less </a>
                                                 </span>
 											</div>
 										</article>
 										<article>
-											<a style="outline:none" href=".inner" class="image" data-toggle="modal" data-target="#proj_02_Modal"><img src="images/project/proj_02/workflow.png" alt="" /></a>
+											<a style="outline:none" href=".inner" class="image" data-toggle="modal" data-target="#proj_GMM_Modal"><img src="images/project/proj_GMM/change%20detection.png" alt="" /></a>
                                             <!-- Modal -->
-                                            <div class="modal" id="proj_02_Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                            <div class="modal" id="proj_GMM_Modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                                               <div class="modal-dialog modal-lg" role="document">
                                                 <div class="modal-content">
                                                   <div class="modal-header">
+                                                      <h5 class="modal-title">Bi-temporal Change Detection(red) On Satellite Images Taken In Year 2004(left) And 2009(right) On The Same Location</h5>
                                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                       <span aria-hidden="true">&times;</span>
                                                     </button>
@@ -325,16 +361,17 @@
                                               </div>
                                             </div>
 											<div class="inner">
-												<h4>Real-time Sentiment Analysis of Twitter Data Streaming</h4>
-                                                <span>This project is to perform a basic sentimental analysis of real-time tweets. Here the Bag-Of-Word (BOW) method is used to decompose the tweets in a fixed time interval into two classes of sentimental polarities. 
+												<h4>GMM based Change Detection Framework Using Very High-resolution Satellite Imagery</h4>
+                                                <span>High resolution images provided by satellites are good resource to use to identify and quantify landscapes changes. We explore a detection method to identify landscape changes using high resolution satellite images.  
                                                     <a class="learn_more"><br> Learn More &nbsp;<i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-                                                <span class="more_text">Technically, the real-time text data stream is handled using the Kafka distributed streaming platform in order to balance the streaming speed and processing speed. From these real-time analysis, it is obvious to track the sentiment trend over a time period. 
+                                                <span class="more_text">The grid based method is helpful in Bi-temporal change detection. By given two satellite images from the same area, it can identify changes accurately with high tolerance on noise(e.g. weather) and pixel mismatches. In our project, we divide each high-resolution satellite image into equally-sized square grids and fit each grid of RGB pixels using one Gaussian distribution. Next, we use symmetric Kullback-Leibler (KL) divergence of two Gaussian distributions at the same location of various time as metrics of image changes. Then a Gaussian Mixture Model (GMM) is used to cluster the KL divergence map into various levels of change, which is a good visualization of change detection between the two images over time.
                                                 </span>
                                                 <h5 class="more_text"><br>My Contribution</h5>
                                                 <ul class="more_text">
-                                                    <li><span>Set up the data streaming pipeline using Kafka distributed streaming platform, Twitter streaming API and Spark Streaming.</span></li>
-                                                    <li><span>Code the BOW sentiment analysis method using Spark RDDs and MapReduce API.</span></li>
-                                                    <!--li><span>Data visualization using python Matplotlib package.</span></li-->
+                                                    <li><span>Implement symmetric Kullback-Leibler(KL) divergence metrics to measure the distance(temporal changes) between Gaussian distributions of images pixel grids.</span></li>
+                                                    <li><span>Build the framework of Gaussian Mixture Model(GMM) class for clustering detected changes.</span></li>
+                                                    <li><span>Collaboratively perform code testing and parameter optimization for image processing.</span></li>
+                                                    <li><span>Detected over 85% of significant changes labeled by human experts on temporal satellite images.</span></li>
                                                 </ul>
                                                 </span>
                                                     <a class="show_less"><i class="fa fa-angle-double-up" aria-hidden="true"></i>&nbsp; Show less </a>
@@ -347,6 +384,7 @@
                                               <div class="modal-dialog modal-lg" role="document">
                                                 <div class="modal-content">
                                                   <div class="modal-header">
+                                                      <h5 class="modal-title">CBS Projected On Surface Brillouin Zone</h5>
                                                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                                                       <span aria-hidden="true">&times;</span>
                                                     </button>
